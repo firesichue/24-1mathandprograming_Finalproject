@@ -67,8 +67,9 @@ real world 근거 기반하여 디테일하게 generating 범위 설정함
 ![image](https://github.com/firesichue/24-1mathandprograming_Finalproject/assets/170858202/67a10461-52f1-4f66-a6b1-49537eafeff9)
 
 프로그램의 완성도를 위해 시나리오에서 고려 가능한 거의 모든 부분의 parameter를 기획, 구성함
+부분적으로 국제 의료보건 데이터셋 표준인 FHIR의 항목 참고함.
 
-# Patient Information (환자 정보)
+Patient Information (환자 정보)
 이름 (name): 환자의 이름  
 나이 (age): 환자의 나이  
 성별 (gender): 환자의 성별 (남성/여성)  
@@ -83,7 +84,7 @@ real world 근거 기반하여 디테일하게 generating 범위 설정함
 산소 포화도 (oxygen_saturation): 환자의 산소 포화도 (%)  
 혈당 (blood_sugar): 환자의 혈당 (mg/dL)  
 
-# Medical History (의료 기록)
+ Medical History (의료 기록)
 병력 (medical_history): 환자가 앓고 있는 질병 목록 (예: 고혈압, 고지혈증)  
 현재 복용 약물 (current_medications): 환자가 현재 복용 중인 약물 목록 (예: 아스피린, 리피토)  
 알레르기 (allergies): 환자가 가지고 있는 알레르기 (예: 없음)  
@@ -93,14 +94,14 @@ real world 근거 기반하여 디테일하게 generating 범위 설정함
 진단 결과 (diagnostic_results): 진단 결과 요약 (예: CT: 뇌출혈 확인)  
 전자 건강 기록 (EHR): 환자의 전자 건강 기록 여부 (예: 있음)  
 
-# Diagnostic Results (진단 결과)
+Diagnostic Results (진단 결과)
 CT 결과 (CT_result): CT 검사 결과 (예: 뇌출혈 확인)  
 MRI 결과 (MRI_result): MRI 검사 결과 (예: 정상)  
 신경학적 검사 (neurological_exam): 신경학적 검사 결과 (예: 좌측 편마비)  
 EEG 결과 (EEG_result): 뇌파 검사 결과 (예: 정상)  
 CSF 분석 (CSF_analysis): 뇌척수액 분석 결과 (예: 정상)  
 
-# Additional Information (추가 정보)
+ Additional Information (추가 정보)
 가족력 (family_history): 가족 질병 역사 (예: 부모님 고혈압)  
 생활습관 (lifestyle): 환자의 생활습관 (예: 비흡연, 음주 가끔)  
 GCS (GCS): 글래스고 코마 스케일 (점수) (예: 13)  
@@ -109,18 +110,18 @@ GCS (GCS): 글래스고 코마 스케일 (점수) (예: 13)
 감정 상태 (emotional_state): 환자의 감정 상태 (예: 불안)  
 피부 상태 (skin_condition): 환자의 피부 상태 (예: 정상)  
 
-# Scenario (시나리오)
+Scenario (시나리오)
 시나리오 유형 (scenario_type): 시나리오의 유형 (예: 뇌출혈)  
 응급 상황 설정 (emergency_setting): 응급 상황의 설정 (예: 의식 저하)  
 치료 목표 (treatment_goal): 치료의 주요 목표 (예: 출혈 억제)  
 약물 및 용량 (medication_and_dosage): 처방된 약물 및 용량 (예: 만니톨)  
 간호 중재 (nursing_intervention): 필요한 간호 중재 (예: 산소 공급)  
 
-# Patient Education (환자 교육)
+Patient Education (환자 교육)
 교육 내용 (education_content): 환자에게 제공되는 교육 내용 (예: 뇌출혈 후 회복)  
 윤리적 문제 (ethical_issues): 윤리적 문제 (예: 의사결정 능력 제한 시 가족 동의)  
 
-# Environment and Followup (환경 및 추적 계획)
+Environment and Followup (환경 및 추적 계획)
 가족의 대처 능력 (family_coping_ability): 가족의 대처 능력 (예: 중간)  
 환경 설정 (environment_setting): 환자의 환경 설정 (예: ICU)  
 이송 계획 (transfer_plan): 환자의 이송 계획 (예: ICU로 이송)  
@@ -128,3 +129,4 @@ GCS (GCS): 글래스고 코마 스케일 (점수) (예: 13)
 간호 기록 (nursing_record): 간호 기록 여부 (예: 환자 상태 기록)  
 간호 평가 (nursing_evaluation): 간호 평가 여부 (예: 치료 후 상태 평가)  
 다학제 협업 (multidisciplinary_collaboration): 다학제 협업 필요 여부 (예: 신경과 협진 필요)  
+
