@@ -24,77 +24,12 @@
     - 정규 분포 등 수학적/통계적 도구 적용함
     - generate_full_scenario (메인함수) 실행시 다음과 같은 케이스 등장함
     - 
-    
-    {
-    "Patient Information": {
-    "name": "안재근",
-    "age": 60,
-    "gender": "남성",
-    "height": 178,
-    "weight": 101,
-    "blood_pressure": "138/84 mmHg",
-    "heart_rate": "76 bpm",
-    "respiratory_rate": "19 breaths/min",
-    "temperature": "37.2°C",
-    "oxygen_saturation": "94%",
-    "blood_sugar": "123 mg/dL"
-    },
-    "Medical History": {
-    "medical_history": [
-    "고혈압",
-    "고지혈증"
-    ],
-    "current_medications": [
-    "아스피린",
-    "리피토"
-    ],
-    "allergies": "없음",
-    "primary_symptom": "두통",
-    "secondary_symptoms": [
-    "어지럼증",
-    "구토"
-    ],
-    "physical_examination": "신경학적 이상 소견",
-    "diagnostic_results": "CT: 뇌출혈 확인",
-    "EHR": "전자 건강 기록 있음"
-    },
-    "Diagnostic Results": {
-    "CT_result": "뇌출혈 확인",
-    "MRI_result": "정상",
-    "neurological_exam": "좌측 편마비",
-    "EEG_result": "정상",
-    "CSF_analysis": "정상"
-    },
-    "Additional Information": {
-    "family_history": "부모님 고혈압",
-    "lifestyle": "비흡연, 음주 가끔",
-    "GCS": 13,
-    "pain_score": 6,
-    "patient_cooperation": "중간",
-    "emotional_state": "불안",
-    "skin_condition": "정상"
-    },
-    "Scenario": {
-    "scenario_type": "뇌출혈",
-    "emergency_setting": "의식 저하",
-    "treatment_goal": "출혈 억제",
-    "medication_and_dosage": "만니톨",
-    "nursing_intervention": "산소 공급"
-    },
-    "Patient Education": {
-    "education_content": "뇌출혈 후 회복",
-    "ethical_issues": "의사결정 능력 제한 시 가족 동의"
-    },
-    "Environment and Followup": {
-    "family_coping_ability": "중간",
-    "environment_setting": "ICU",
-    "transfer_plan": "ICU로 이송",
-    "followup_plan": "신경과 협진",
-    "nursing_record": "환자 상태 기록",
-    "nursing_evaluation": "치료 후 상태 평가",
-    "multidisciplinary_collaboration": "신경과 협진 필요"
-    }
-    }
+     ![image](https://github.com/firesichue/24-1mathandprograming_Finalproject/assets/170858202/982c9971-e64d-44bf-8e08-0bf84f8abbf7)
+![image](https://github.com/firesichue/24-1mathandprograming_Finalproject/assets/170858202/756ebabe-a0bb-4043-8839-f6ca8acfa20a)
+![image](https://github.com/firesichue/24-1mathandprograming_Finalproject/assets/170858202/8a9dd8f4-68dd-497f-915d-ce1834e48324)
+![image](https://github.com/firesichue/24-1mathandprograming_Finalproject/assets/170858202/b8525985-cc2e-497b-8765-85212b850877)
+![image](https://github.com/firesichue/24-1mathandprograming_Finalproject/assets/170858202/2249c131-f26d-4592-9629-646c8aa066d2)
+
     
 
 1. 실효성, 타당성 확인
@@ -104,4 +39,4 @@
 2. 추후 보완책
     1. UI 구축으로 프로그램의 제품화 고려
     2. 단순 케이스 제시를 넘어서, 해결 해야하는 문제를 케이스마다 다르게 임의로 제시하는 등 프로그램의 완결성 확보 
-    3. chat gpt API를 통해,  data set을 chat gpt에 입력하여 환자와 대화할 수 있는 요소 추가 고려
+    3. chat gpt API를 통해,  data set을 chat gpt에 입력하여 환자와 대화할 수 있는 대화적 요소 추가 고려
